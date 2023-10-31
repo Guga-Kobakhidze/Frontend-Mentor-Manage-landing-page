@@ -69,6 +69,10 @@ button.normal:hover {
   opacity: 0.8;
 }
 
+.hidden {
+  display: none;
+}
+
 .title {
   font-size: clamp(28px, 8vw, 38px);
   color: var(--Dark-Blue);
@@ -613,7 +617,7 @@ button.normal:hover {
     background-color: rgba(0, 0, 0, 0.412);
     z-index: 2;
   }
-  .nav-menu {
+  .nav_menu {
     background-color: var(--Very-light-Gray);
     height: 230px;
     width: 250px;
@@ -638,7 +642,7 @@ button.normal:hover {
   .menu-icon {
     display: block;
   }
-  .nav-menu.active {
+  .nav_menu.active {
     top: 220px;
     transition: top 0.3s;
   }
