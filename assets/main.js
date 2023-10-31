@@ -2,7 +2,7 @@
 
 const navToggle = document.getElementById("menu-icon");
 const navClose = document.getElementById("close-icon");
-const navMenu = document.querySelector(".nav-menu");
+const navMenu = document.getElementById("main-nav");
 const overlay = document.querySelector(".overlay");
 
 overlay.style.height = "0";
