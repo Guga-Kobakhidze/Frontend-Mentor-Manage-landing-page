@@ -617,7 +617,7 @@ button.normal:hover {
     background-color: rgba(0, 0, 0, 0.412);
     z-index: 2;
   }
-  .nav_menu {
+  #nav-menu {
     background-color: var(--Very-light-Gray);
     height: 230px;
     width: 250px;
@@ -642,7 +642,7 @@ button.normal:hover {
   .menu-icon {
     display: block;
   }
-  .nav_menu.active {
+  #nav-menu.active {
     top: 220px;
     transition: top 0.3s;
   }
